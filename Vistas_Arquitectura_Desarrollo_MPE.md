@@ -163,7 +163,7 @@ digraph AIPipeline {
         
         node [fillcolor="#B91C1C", color="#FCA5A5"];
         B3 [label="Agente Adversarial\nAnti-Alucinaciones", shape=diamond];
-        B5 [label="Agente MPE Súper Pareto\n10% Vital", shape=invhouse];
+        B5 [label="Agente MPE Súper Pareto\n10-20% Vital", shape=invhouse];
         
         Mito [label="Mito Reciclado\n(Trampa Pedagógica)", shape=box, fillcolor="#B91C1C", color="#FCA5A5", fontcolor="white"];
         

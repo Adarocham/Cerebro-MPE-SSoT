@@ -37,7 +37,7 @@ Las respuestas a estas preguntas permiten a los agentes destilar la esencia que 
 
 ## 5. El Entorno Controlado de Aprendizaje (ECA de 30 Minutos)
 
-Con la Ruta definida y calibrada, Carlos entra en el **ECA (Entorno Controlado de Aprendizaje)**. Esta es la cápsula de tiempo blindada: el sistema empaqueta la enseñanza para que no exceda los **30 minutos de media**. La filosofía es clara: Eficiencia Radical (Súper Pareto). Entregar solo el 10% del Conocimiento Vital que generará el 80% del impacto.
+Con la Ruta definida y calibrada, Carlos entra en el **ECA (Entorno Controlado de Aprendizaje)**. Esta es la cápsula de tiempo blindada: el sistema empaqueta la enseñanza para que no exceda los **30 minutos de media**. La filosofía es clara: Eficiencia Radical (Súper Pareto). Entregar solo el 10 o 20% del Conocimiento Vital que generará el 80 o 90% del impacto.
 
 El ECA de Carlos se despliega en las 4 Capas MPE fluidamente, diseñadas directamente por las respuestas a las 3 Preguntas MIT:
 *   **Capa Panorámica:** Carlos recibe una infografía de lectura rápida de 2 minutos que le muestra por qué la ley XYZ se creó a nivel macroeconómico (Pensamiento Sistémico).

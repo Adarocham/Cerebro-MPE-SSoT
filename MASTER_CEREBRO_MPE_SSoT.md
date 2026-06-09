@@ -10,7 +10,7 @@ Para erradicar el tecnoestrés y la sobrecarga, el Cerebro MPE opera bajo una fi
 
 Este proceso se nutre inicialmente de la **Generación Inteligente de Contenidos Educativos (GICE)**: un proceso de curaduría organizacional previo a la sesión, compuesto por 70% HITL (Human-in-the-Loop) y 30% modelos expertos, que aísla el conocimiento estratégico.
 
-Sobre ese corpus, la máquina aplica la Técnica del **Súper Pareto**: extrae un subconjunto mínimo de "Conceptos Vitales" (5% a 10% del corpus total) que explica más del 80%-90% del impacto empírico en el puesto de trabajo. Al tamizar la sobrecarga de información, se garantiza que el alumno asimile lo fundamental, rápido y a la medida exacta de su perfil profesional.
+Sobre ese corpus, la máquina aplica la Técnica del **Súper Pareto**: extrae un subconjunto mínimo de "Conceptos Vitales" (10 o 20% del corpus total) que explica el 80 o 90% del impacto empírico en el puesto de trabajo. Al tamizar la sobrecarga de información, se garantiza que el alumno asimile lo fundamental, rápido y a la medida exacta de su perfil profesional.
 
 ### 3. Arquitectura multi-agente y refuerzo colaborativo
 El aprendizaje profundo requiere interacción, adaptabilidad y ausencia de fricción metodológica. El Cerebro MPE abandona el monólogo tradicional. Su ecosistema de 21 agentes se divide en 5 grandes dimensiones lógicas:

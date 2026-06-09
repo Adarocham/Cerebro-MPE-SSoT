@@ -173,7 +173,7 @@ El ecosistema se articula mediante el trabajo especializado de 24 agentes (nodos
    * **Función:** Extrae la esencia conceptual (Regla MIT). Identifica: 1) Los Modelos Mentales profundos, 2) Las Discrepancias entre expertos y 3) La Puesta a Prueba (Comprensión vs Memoria).
 
 9. **Agente MPE / Súper Pareto (`agente_mpe`)**
-   * **Función:** Es el filtro más estricto. Destila el texto eliminando el 90% de información técnica secundaria, aislando el **Conocimiento Vital** (el 10% que produce el 80% del impacto en el trabajo).
+   * **Función:** Es el filtro más estricto. Destila el texto eliminando el 80 o 90% de información técnica secundaria, aislando el **Conocimiento Vital** (el 10 o 20% que produce el 80 o 90% del impacto en el trabajo).
 
 10. **Agente Conocimientos Relacionados (`agente_conocimientos_relacionados`)**
     * **Función:** Construye "puentes interdisciplinares" (basado en Teoría de Flexibilidad Cognitiva). Conecta el conocimiento nuevo con otras disciplinas ajenas al alumno para evitar "silos cognitivos".

@@ -30,7 +30,7 @@ Este documento sirve como referencia central para definir con rigor técnico y p
     1.  *Modelos Mentales:* Marcos de pensamiento invisibles de los expertos.
     2.  *Discrepancias:* Áreas donde los expertos difieren, forzando la toma de postura.
     3.  *Puesta a Prueba (Comprensión vs. Memoria):* Evaluar si el alumno entiende la raíz del tema o solo recita reglas.
-*   **Súper Pareto (Filtro 10/80):** Algoritmo de hiper-síntesis del Agente MPE que descarta el 90% del texto "relleno" o periférico para entregar solo el 10% de **Conocimiento Vital** que produce el 80% del impacto en el puesto de trabajo.
+*   **Súper Pareto (Filtro 10-20/80-90):** Algoritmo de hiper-síntesis del Agente MPE que descarta el 80 o 90% del texto "relleno" o periférico para entregar solo el 10 o 20% de **Conocimiento Vital** que produce el 80 o 90% del impacto en el puesto de trabajo.
 *   **Agente Adversarial ("Filtro Antibuloso"):** Agente de IA encargado de ejecutar *Red Teaming* (ataques lógicos) contra la información extraída para destruir alucinaciones, sesgos o datos obsoletos antes de que lleguen al alumno.
 *   **Triangulación Ciega:** Protocolo usado por el Agente Adversarial donde evalúa premisas sin saber quién las escribió, eliminando el sesgo de autoridad corporativa.
 *   **Purgatorio Cognitivo (Mitos Reciclados):** Información destruida por el Agente Adversarial que no se elimina, sino que se etiqueta como "Bulo/Mito" y se envía al simulador para usarse como una trampa pedagógica contra el alumno.

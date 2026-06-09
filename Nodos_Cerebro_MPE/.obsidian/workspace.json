@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "ec717df3ecd3e002",
+    "type": "split",
+    "children": [
+      {
+        "id": "82d3e8f43a1b0f82",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "61b6ed9ca29c115f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8caffb80920f3c0e",
+    "type": "split",
+    "children": [
+      {
+        "id": "740a662185f0b3e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03b2e5efca0b9983",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "05315684af9b1dd0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "ee11fd5f102d6958",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 368.5
+  },
+  "right": {
+    "id": "d0e2f5beadb6ab7b",
+    "type": "split",
+    "children": [
+      {
+        "id": "acb74c4618262502",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "05e34210957dcf77",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "c62a37f8b0229b36",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "9215a14ddb2a6f05",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "3446bceb6ea92bf2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "f8dd223c23046dbb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          },
+          {
+            "id": "68d8a9733149697c",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
+          },
+          {
+            "id": "b229a22a1864dab1",
+            "type": "leaf",
+            "state": {
+              "type": "infranodus-graph-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "infranodus-graph-view"
+            }
+          },
+          {
+            "id": "b6f76aec0f95fe15",
+            "type": "leaf",
+            "state": {
+              "type": "infranodus-graph-view",
+              "state": {},
+              "icon": "infranodus-icon"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 384.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Toggle Footer Connections": false,
+      "smart-connections:Smart Connections: Open random connection": false,
+      "tags-overview:Tags overview": false,
+      "infranodus-graph-view:InfraNodus Graph View": false
+    }
+  },
+  "active": "61b6ed9ca29c115f",
+  "lastOpenFiles": [
+    "Capa Integrativa.md",
+    "Destino Organizacional.md",
+    "Tutor Experto.md",
+    "Tutor Aprendiz.md",
+    "Súper Pareto.md",
+    "Repetición Espaciada.md",
+    "Regla MIT.md",
+    "OCC.md",
+    "Filtro Antibuloso.md",
+    "Glosario_Cerebro_MPE.md",
+    "Capa Panorámica.md",
+    "Capa Focal.md",
+    "Agente Tres Preguntas.md",
+    "Agente Perfilador VARK.md",
+    "Agente Evaluador Sumativo MPE.md",
+    "Agente Competencias y Habilidades.md",
+    "Agente Calidad.md",
+    "Agente Capa 2 Conceptual.md",
+    "Tutor Par.md",
+    "MASTER_CEREBRO_MPE_SSoT.md"
+  ]
+}

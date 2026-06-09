@@ -1,7 +1,10 @@
 # Objeto de Contexto Compartido
 
-Este nodo es parte integral de la arquitectura del Cerebro MPE.
+**El Sistema Nervioso del Cerebro MPE.**
 
+*Un documento JSON dinámico y persistente que almacena el estado completo del alumno (perfil, estilo cognitivo, vulnerabilidades, historial). Evita la amnesia entre agentes.* (Ver [[OCC]]).
+
+---
 ## Enlaces de Arquitectura
-*   [[MASTER_CEREBRO_MPE_SSoT]]
-*   [[Glosario_Cerebro_MPE]]
+*   [[MASTER_CEREBRO_MPE_SSoT|SSoT Central del Cerebro MPE]]
+*   [[Glosario_Cerebro_MPE|Ver en Glosario Oficial]]

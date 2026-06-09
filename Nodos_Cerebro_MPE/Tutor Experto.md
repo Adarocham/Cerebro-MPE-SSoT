@@ -1,7 +1,10 @@
 # Tutor Experto
 
-Este nodo es parte integral de la arquitectura del Cerebro MPE.
+**Rol de Asistencia:** Agente de Feedback Correctivo.
 
+*Interviene únicamente cuando el alumno comete errores críticos (misconceptions) o cae en las trampas del [[Agente Adversarial]]. Explica el "por qué" del fallo.*
+
+---
 ## Enlaces de Arquitectura
-*   [[MASTER_CEREBRO_MPE_SSoT]]
-*   [[Glosario_Cerebro_MPE]]
+*   [[MASTER_CEREBRO_MPE_SSoT|SSoT Central del Cerebro MPE]]
+*   [[Glosario_Cerebro_MPE|Ver en Glosario Oficial]]

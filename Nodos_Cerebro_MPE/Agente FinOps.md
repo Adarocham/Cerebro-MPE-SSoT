@@ -1,7 +1,10 @@
 # Agente FinOps
 
-Este nodo es parte integral de la arquitectura del Cerebro MPE.
+**Función Central:** Auditor de Recursos y Costos.
 
+*Optimiza el uso de tokens (LLMs) previniendo ataques de denegación de billetera financiera (FinOps DDoS) y enrutando peticiones a modelos más eficientes.*
+
+---
 ## Enlaces de Arquitectura
-*   [[MASTER_CEREBRO_MPE_SSoT]]
-*   [[Glosario_Cerebro_MPE]]
+*   [[MASTER_CEREBRO_MPE_SSoT|SSoT Central del Cerebro MPE]]
+*   [[Glosario_Cerebro_MPE|Ver en Glosario Oficial]]

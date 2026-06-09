@@ -45,3 +45,15 @@ Pero el proceso no termina ahí. Transfiere el cadáver de esa premisa al simula
 ## Conclusión: La Confianza a través del Conflicto
 
 El Agente Adversarial es la garantía corporativa de integridad intelectual. En el modelo GICE, entendemos que la única manera de confiar plenamente en el conocimiento generado por Inteligencia Artificial es someterlo constantemente a un fuego cruzado diseñado por otra Inteligencia Artificial. La verdad que llega al alumno no es verdad porque un sistema la haya generado; es verdad porque sobrevivió a los intentos implacables del propio sistema por destruirla.
+
+---
+## 🔗 Documentación Arquitectónica Relacionada
+Para explorar el ecosistema completo del Cerebro MPE, puedes navegar por los siguientes nodos:
+*   [[MASTER_CEREBRO_MPE_SSoT|SSoT Central del Cerebro MPE]]
+*   [[Matriz_Agentes_MPE|Matriz Operativa de Agentes (I/O)]]
+*   [[Flujo_Detallado_Agentes_MPE|Flujo Lógico y Funcional de los Agentes]]
+*   [[Viaje_del_Alumno_MPE|El Viaje del Alumno (Experiencia Frontend)]]
+*   [[Glosario_Cerebro_MPE|Glosario Oficial de Conceptos]]
+*   [[Vistas_Arquitectura_Desarrollo_MPE|Vistas de Arquitectura para Desarrollo (.dot)]]
+*   [[WP_GICE_Agente_Adversarial|Análisis Profundo del Agente Adversarial]]
+

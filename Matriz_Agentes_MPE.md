@@ -30,3 +30,15 @@ Este documento consolida el ecosistema de inteligencia artificial de la platafor
 | **Transversal (Memoria)** | **22. Agente Seguimiento** | Lucha contra la Curva de Ebbinghaus. Programa micro-intervenciones de Repetición Espaciada para el futuro. | **Input:** Resultados del Evaluador Sumativo.<br>**Output:** Programa recordatorios silenciosos a las 24h, 72h y 7 días (Mutador OCC). |
 | **Transversal (Impacto)** | **23. Agente Transferencia** | Auditor de **Kirkpatrick Nivel 5 (ROI)**. Semanas después, evalúa si la competencia adquirida mejoró métricas reales en el trabajo. | **Input:** Historial OCC a mediano plazo.<br>**Output:** Demostración de impacto (Retroalimentación hacia la directiva GICE). |
 | **Auditoría (Quality Gate)**| **24. Agente Evaluador MPE** | Auditor silencioso y transversal. Evita que un ECA inicie si el Agente de Diseño violó alguna regla metodológica MPE (ej. ruta excede los 30 min). | **Input:** Borrador del Agente de Diseño.<br>**Output:** Aprobación (*Pase a Práctica*) o Rechazo iterativo a Fase 2. |
+
+---
+## 🔗 Documentación Arquitectónica Relacionada
+Para explorar el ecosistema completo del Cerebro MPE, puedes navegar por los siguientes nodos:
+*   [[MASTER_CEREBRO_MPE_SSoT|SSoT Central del Cerebro MPE]]
+*   [[Matriz_Agentes_MPE|Matriz Operativa de Agentes (I/O)]]
+*   [[Flujo_Detallado_Agentes_MPE|Flujo Lógico y Funcional de los Agentes]]
+*   [[Viaje_del_Alumno_MPE|El Viaje del Alumno (Experiencia Frontend)]]
+*   [[Glosario_Cerebro_MPE|Glosario Oficial de Conceptos]]
+*   [[Vistas_Arquitectura_Desarrollo_MPE|Vistas de Arquitectura para Desarrollo (.dot)]]
+*   [[WP_GICE_Agente_Adversarial|Análisis Profundo del Agente Adversarial]]
+

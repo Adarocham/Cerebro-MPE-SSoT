@@ -62,3 +62,15 @@ Secuencia pedagógica que garantiza la transición de la teoría a la práctica 
 *   **Curva del Olvido (Ebbinghaus):** Fenómeno psicológico que demuestra cómo el cerebro olvida la información rápidamente si no es reforzada.
 *   **Repetición Espaciada:** Táctica del Agente de Seguimiento para vencer la Curva del Olvido, enviando micro-retos de 1 minuto al alumno en intervalos progresivos (24h, 72h, 7 días).
 *   **Kirkpatrick Nivel 5 (Transferencia y ROI):** La métrica definitiva de éxito del sistema. A diferencia de las evaluaciones tradicionales (Kirkpatrick 2: exámenes teóricos), el Cerebro MPE audita el comportamiento real del alumno en el puesto de trabajo semanas después de la capacitación, midiendo el impacto económico (Retorno de Inversión) de haber cerrado la brecha de competencias.
+
+---
+## 🔗 Documentación Arquitectónica Relacionada
+Para explorar el ecosistema completo del Cerebro MPE, puedes navegar por los siguientes nodos:
+*   [[MASTER_CEREBRO_MPE_SSoT|SSoT Central del Cerebro MPE]]
+*   [[Matriz_Agentes_MPE|Matriz Operativa de Agentes (I/O)]]
+*   [[Flujo_Detallado_Agentes_MPE|Flujo Lógico y Funcional de los Agentes]]
+*   [[Viaje_del_Alumno_MPE|El Viaje del Alumno (Experiencia Frontend)]]
+*   [[Glosario_Cerebro_MPE|Glosario Oficial de Conceptos]]
+*   [[Vistas_Arquitectura_Desarrollo_MPE|Vistas de Arquitectura para Desarrollo (.dot)]]
+*   [[WP_GICE_Agente_Adversarial|Análisis Profundo del Agente Adversarial]]
+

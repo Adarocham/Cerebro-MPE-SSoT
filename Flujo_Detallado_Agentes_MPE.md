@@ -223,3 +223,15 @@ El ecosistema se articula mediante el trabajo especializado de 24 agentes (nodos
 
 24. **Agente Transferencia (`agente_transferencia`)**
     * **Función:** Auditor del **Nivel 5 de Kirkpatrick (ROI)**. Semanas después de la sesión, no evalúa memoria, sino evidencias en el puesto de trabajo. Compara métricas de desempeño para validar si el ECA tuvo impacto real, cerrando el ciclo hacia la organización.
+
+---
+## 🔗 Documentación Arquitectónica Relacionada
+Para explorar el ecosistema completo del Cerebro MPE, puedes navegar por los siguientes nodos:
+*   [[MASTER_CEREBRO_MPE_SSoT|SSoT Central del Cerebro MPE]]
+*   [[Matriz_Agentes_MPE|Matriz Operativa de Agentes (I/O)]]
+*   [[Flujo_Detallado_Agentes_MPE|Flujo Lógico y Funcional de los Agentes]]
+*   [[Viaje_del_Alumno_MPE|El Viaje del Alumno (Experiencia Frontend)]]
+*   [[Glosario_Cerebro_MPE|Glosario Oficial de Conceptos]]
+*   [[Vistas_Arquitectura_Desarrollo_MPE|Vistas de Arquitectura para Desarrollo (.dot)]]
+*   [[WP_GICE_Agente_Adversarial|Análisis Profundo del Agente Adversarial]]
+

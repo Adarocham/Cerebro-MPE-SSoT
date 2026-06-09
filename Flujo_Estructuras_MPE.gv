@@ -1,0 +1,37 @@
+digraph FlujoEstructurasMPE {
+    fontname="Helvetica,Arial,sans-serif";
+    node [fontname="Helvetica,Arial,sans-serif", shape=box, style="rounded,filled", fontcolor="white"];
+    edge [fontname="Helvetica,Arial,sans-serif", color="#475569", penwidth=2];
+    rankdir=LR; // Left to Right flow
+
+    // 1. Trigger
+    Consulta [label="Consulta FLUX\n(Just-in-Time)", fillcolor="#EA580C", color="#C2410C"];
+
+    // 2. Macro Objective
+    Destino [label="Destino Organizacional\n(Macro-Competencia)", fillcolor="#1E40AF", color="#1E3A8A"];
+
+    // 3. Segmented Path
+    Ruta [label="Ruta(s) de Aprendizaje\n(Hiperpersonalizadas)", fillcolor="#059669", color="#047857"];
+
+    // 4. ECA Cluster
+    subgraph cluster_ECA {
+        label = "ECA (Entorno Controlado de Aprendizaje)\n[30 Minutos - Súper Pareto]";
+        style=filled; color="#F1F5F9"; fontcolor="#0F172A";
+        
+        node [fillcolor="#4C1D95", color="#5B21B6", fontcolor="white", shape=cylinder];
+        ECA_Core [label="4 Capas MPE\n+ 3 Tutores"];
+    }
+
+    // 5. Memory Retention
+    Espaciada [label="Repetición Espaciada\n(Curva del Olvido)", fillcolor="#DB2777", color="#BE185D"];
+
+    // 6. Final Outcome
+    Transferencia [label="Transferencia al Puesto\n(Nivel 5 Kirkpatrick)", fillcolor="#0F172A", color="#10B981", penwidth=3];
+
+    // Flow Connections
+    Consulta -> Destino;
+    Destino -> Ruta [label=" Fragmentación"];
+    Ruta -> ECA_Core [label=" Ejecución"];
+    ECA_Core -> Espaciada [label=" T+24h, 72h, 7d"];
+    Espaciada -> Transferencia [label=" Auditoría ROI"];
+}

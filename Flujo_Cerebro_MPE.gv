@@ -1,0 +1,126 @@
+digraph G {
+    fontname="Helvetica,Arial,sans-serif";
+    node [fontname="Helvetica,Arial,sans-serif"];
+    edge [fontname="Helvetica,Arial,sans-serif"];
+    rankdir=TD;
+    compound=true;
+    splines=ortho;
+
+    // Estilos globales de nodos base
+    node [shape=box, style="filled,rounded", color="#10B981", fontcolor="white"];
+
+    // Elementos Externos
+    User [label="Alumno FLUX", shape=circle, fillcolor="#1E293B", color="#38BDF8", penwidth=3];
+    GICE [label="Curaduría Organizacional GICE\n(70% Humano / 30% IA)", fillcolor="#064E3B", color="#34D399"];
+    OCC [label="Objeto de Contexto Compartido\n(Memoria OCC)", shape=cylinder, fillcolor="#0F172A", color="#10B981"];
+
+    User -> A0 [label="Query Contextual (Just-in-Time)"];
+    GICE -> A0 [label="Destinos Organizacionales"];
+
+    A0 [label="Agente Orquestador", fillcolor="#4338CA", color="#A5B4FC", penwidth=3];
+    A0 -> OCC [dir=both, label="Lee/Escribe Persistencia"];
+
+    // FASE 1
+    subgraph cluster_F1 {
+        label = "FASE MPE-1: Diagnóstico e Intake";
+        style=filled;
+        color="#F1F5F9";
+        fontcolor="#0F172A";
+        node [fillcolor="#064E3B", color="#34D399"];
+        
+        A1 [label="Agente Perfilador\n(Estilo VARK / Tecnoestrés)"];
+        A2 [label="Agente Competencias\n(Brechas y Metas)"];
+        A11 [label="Agente Ruta Aprendizaje\n(Segmentación ECA 30 min)"];
+        
+        A1 -> A11;
+        A2 -> A11;
+    }
+
+    A0 -> A1;
+    A0 -> A2;
+
+    // FASE 2
+    subgraph cluster_F2 {
+        label = "FASE MPE-2: Destilación Súper Pareto";
+        style=filled;
+        color="#F1F5F9";
+        fontcolor="#0F172A";
+        node [fillcolor="#701A75", color="#F472B6"];
+        
+        A3 [label="Agente Búsqueda Fuentes"];
+        A4 [label="Agente Análisis Fuentes"];
+        A5 [label="Agente Adversarial\n(Triangulación Ciega / Antibulosa)"];
+        A6 [label="Agente Tres Preguntas\n(Modelos, Divergencias, Test)"];
+        A7 [label="Agente MPE - Súper Pareto\n(Conocimiento Vital)"];
+        A8 [label="Agente Conocimientos Relacionados"];
+        A9 [label="Agente Casos de Uso"];
+        A10 [label="Agente Diseño Contenidos"];
+        A12 [label="Arquitecto Presentador\n(Prompt Engineering)"];
+        
+        A3 -> A4 -> A5 -> A6 -> A7 -> A8 -> A9 -> A10 -> A12;
+        A5 -> C3 [color="#EF4444", style="dashed", penwidth=2, label="Envía Mitos Reciclados\ncomo Trampas al Simulador"];
+    }
+
+    A11 -> A3;
+
+    // FASE 3
+    subgraph cluster_F3 {
+        label = "FASE MPE-3: Práctica Deliberada y Tutores";
+        style=filled;
+        color="#F1F5F9";
+        fontcolor="#0F172A";
+        node [fillcolor="#7C2D12", color="#FDBA74"];
+        
+        C1 [label="Agente Capa 1 Panorámica\n(Pensamiento Sistémico)"];
+        C2 [label="Agente Capa 2 Conceptual\n(Red de Saberes)"];
+        C3 [label="Agente Capa 3 Focal\n(Micro-Retos Simulador)"];
+        C4 [label="Agente Capa 4 Integrativa\n(Escenario FLUX)"];
+        
+        T1 [label="Agente Tutor Par\n(Feedback Formativo)"];
+        T2 [label="Agente Tutor Experto\n(Feedback Correctivo)"];
+        
+        C1 -> C2 -> C3 -> C4;
+        
+        C3 -> T1 [dir=both, label="Soporte / Reduce Ansiedad", style="dotted"];
+        C3 -> T2 [dir=both, label="Interrumpe por Misconception", style="dotted"];
+    }
+
+    A12 -> C1;
+
+    // FASE 4
+    subgraph cluster_F4 {
+        label = "FASE MPE-4: Validación y Metacognición";
+        style=filled;
+        color="#F1F5F9";
+        fontcolor="#0F172A";
+        node [fillcolor="#065F46", color="#6EE7B7"];
+        
+        T3 [label="Agente Tutor Aprendiz\n(Técnica Feynman)"];
+        A22 [label="Agente Evaluador\n(Feedback Sumativo)"];
+        A20 [label="Agente Seguimiento\n(Repetición Espaciada)"];
+        A23 [label="Agente Transferencia\n(Kirkpatrick L5 / ROI)"];
+        
+        T3 -> A22;
+        A22 -> A20;
+        A22 -> A23;
+    }
+
+    C4 -> T3;
+
+    // Módulo Transversal
+    subgraph cluster_Auditoria {
+        label = "Módulo Transversal (Auditoría)";
+        style=filled;
+        color="#F1F5F9";
+        fontcolor="#0F172A";
+        node [fillcolor="#374151", color="#9CA3AF"];
+        
+        A21 [label="Agente Evaluador MPE\n(Quality Gate de Metodología)"];
+    }
+
+    A10 -> A21 [style=dashed, label="Valida Diseño"];
+    A21 -> C1 [style=dashed, label="Aprueba Pase a Práctica"];
+    
+    A22 -> OCC [label="Actualiza Métricas y Perfil", constraint=false];
+    A23 -> GICE [label="Retroalimenta Criterio Organizacional", constraint=false, style=dotted];
+}

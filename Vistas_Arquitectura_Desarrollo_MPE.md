@@ -102,7 +102,7 @@ digraph DataFlow {
     rankdir=TD;
     compound=true;
 
-    OCC [label="Objeto de Contexto\nCompartido (JSON)", shape=cylinder, style="filled", fillcolor="#0F172A", color="#10B981", fontcolor="white", penwidth=2];
+   [[OCC]][label="Objeto de Contexto\nCompartido (JSON)", shape=cylinder, style="filled", fillcolor="#0F172A", color="#10B981", fontcolor="white", penwidth=2];
     Mutex [label="Gestor de Conflictos\n(Mutex Lock)", shape=diamond, style="filled", fillcolor="#0F172A", color="#10B981", fontcolor="white"];
 
     subgraph cluster_Lectura {
@@ -110,7 +110,7 @@ digraph DataFlow {
         style=filled; color="#EFF6FF";
         node [shape=box, style="filled,rounded", fillcolor="#1E40AF", color="#60A5FA", fontcolor="white"];
         A0 [label="Orquestador"];
-        A12 [label="Arquitecto Presentador"];
+        A12 [label="[[Arquitecto Presentador]]"];
         C3 [label="Simulador"];
     }
 
@@ -118,25 +118,25 @@ digraph DataFlow {
         label="Agentes Mutadores (Escritura/Actualización)";
         style=filled; color="#FEF2F2";
         node [shape=box, style="filled,rounded", fillcolor="#991B1B", color="#F87171", fontcolor="white"];
-        A1 [label="Perfilador VARK"];
+        A1 [label="[[Perfilador VARK]]"];
         A22 [label="Evaluador Sumativo"];
         A20 [label="Seguimiento Espaciado"];
     }
 
-    OCC -> A0 [label="Lee Perfil Actual", style=dashed, color="#1E40AF"];
-    OCC -> A12 [label="Lee Restricciones de Tono", style=dashed, color="#1E40AF"];
-    OCC -> C3 [label="Lee Nivel de Reto", style=dashed, color="#1E40AF"];
+   [[OCC]]-> A0 [label="Lee Perfil Actual", style=dashed, color="#1E40AF"];
+   [[OCC]]-> A12 [label="Lee Restricciones de Tono", style=dashed, color="#1E40AF"];
+   [[OCC]]-> C3 [label="Lee Nivel de Reto", style=dashed, color="#1E40AF"];
 
-    A1 -> Mutex [label="Escribe Update Emocional\n(Tecnoestrés)", color="#991B1B"];
+    A1 -> Mutex [label="Escribe Update Emocional\n([[Tecnoestrés]])", color="#991B1B"];
     A22 -> Mutex [label="Escribe % de Dominio Alcanzado", color="#991B1B"];
     A20 -> Mutex [label="Programa Timestamps\n(24h, 72h, 7d)", color="#991B1B"];
-    Mutex -> OCC [color="#10B981", penwidth=2];
+    Mutex ->[[OCC]][color="#10B981", penwidth=2];
 }
 ```
 
 ---
 
-## 3. Vista del Pipeline de IA (GICE & Súper Pareto)
+## 3. Vista del Pipeline de IA (GICE & [[Súper Pareto]])
 **Propósito:** Diagramar la "Fábrica de Sentido" detallando el filtro adversarial y la generación de contenido final.
 
 ```dot
@@ -162,8 +162,8 @@ digraph AIPipeline {
         B6 [label="Generación de\nEstructura JSON"];
         
         node [fillcolor="#B91C1C", color="#FCA5A5"];
-        B3 [label="Agente Adversarial\nAnti-Alucinaciones", shape=diamond];
-        B5 [label="Agente MPE Súper Pareto\n10-20% Vital", shape=invhouse];
+        B3 [label="[[Agente Adversarial]]\nAnti-Alucinaciones", shape=diamond];
+        B5 [label="[[Agente MPE]] [[Súper Pareto]]\n10-20% Vital", shape=invhouse];
         
         Mito [label="Mito Reciclado\n(Trampa Pedagógica)", shape=box, fillcolor="#B91C1C", color="#FCA5A5", fontcolor="white"];
         
@@ -200,10 +200,10 @@ digraph FeedbackFlow {
     Sim [label="Simulador (Capa 3)", fillcolor="#EA580C", color="#C2410C"];
     Eval [label="Evalúa acción contra Rúbrica", shape=diamond, fillcolor="#475569", color="#94A3B8"];
     
-    T_Par [label="Tutor Par (Formativo)\n'Pensemos juntos...'", fillcolor="#7C2D12", color="#FDBA74"];
-    T_Exp [label="Tutor Experto (Correctivo)\n'Hard Stop. Repasemos.'", fillcolor="#991B1B", color="#F87171"];
+    T_Par [label="[[Tutor Par]] (Formativo)\n'Pensemos juntos...'", fillcolor="#7C2D12", color="#FDBA74"];
+    T_Exp [label="[[Tutor Experto]] (Correctivo)\n'Hard Stop. Repasemos.'", fillcolor="#991B1B", color="#F87171"];
     
-    OCC [label="Memoria OCC", shape=cylinder, fillcolor="#0F172A", color="#10B981"];
+   [[OCC]][label="Memoria OCC", shape=cylinder, fillcolor="#0F172A", color="#10B981"];
     Acierto [label="Feedback Positivo", fillcolor="#059669", color="#34D399"];
 
     User -> Sim [label="Ejecuta acción\nen micro-reto"];
@@ -211,7 +211,7 @@ digraph FeedbackFlow {
 
     // Acierto
     Eval -> Acierto [label=" Acierto", color="#059669"];
-    Acierto -> OCC [label=" Registra +1 Dominio"];
+    Acierto ->[[OCC]][label=" Registra +1 Dominio"];
     Acierto -> User [label=" Avanza"];
 
     // Duda / Error leve
@@ -223,7 +223,7 @@ digraph FeedbackFlow {
     Eval -> T_Exp [label=" Error Estructural\n(Misconception)", color="#991B1B"];
     T_Exp -> User [label=" Interrupción Abrupta"];
     T_Exp -> Sim [label=" Rebaja nivel dificultad"];
-    T_Exp -> OCC [label=" Marca 'Misconception'"];
+    T_Exp ->[[OCC]][label=" Marca 'Misconception'"];
     User -> Sim [label=" Reinicia desde peldaño inferior", style=dashed];
 }
 ```

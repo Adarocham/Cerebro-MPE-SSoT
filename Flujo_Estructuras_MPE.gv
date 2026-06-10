@@ -8,7 +8,7 @@ digraph FlujoEstructurasMPE {
     Consulta [label="Consulta FLUX\n(Just-in-Time)", fillcolor="#EA580C", color="#C2410C"];
 
     // 2. Macro Objective
-    Destino [label="Destino Organizacional\n(Macro-Competencia)", fillcolor="#1E40AF", color="#1E3A8A"];
+    Destino [label="Destino de Aprendizaje\n(Macro-Competencia)", fillcolor="#1E40AF", color="#1E3A8A"];
 
     // 3. Segmented Path
     Ruta [label="Ruta(s) de Aprendizaje\n(Hiperpersonalizadas)", fillcolor="#059669", color="#047857"];

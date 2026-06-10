@@ -17,8 +17,8 @@ Este documento sirve como referencia central para definir con rigor técnico y p
 ## 2. Componentes de la Experiencia del Alumno
 
 *   **ECA ([[Entorno Controlado de Aprendizaje]]):** Sesión de aprendizaje blindada de máximo 30 minutos de duración. Diseñada para evitar la fatiga cognitiva y maximizar la concentración a través de la entrega ultradensa de conocimiento.
-*   **[[Destino Organizacional]]:** La competencia macro o capacidad final que la empresa necesita que el colaborador adquiera (ej. "Liderar un equipo remoto").
-*   **[[Ruta de Aprendizaje]]:** Camino hiperpersonalizado, dividido en micro-pasos (ECAs), diseñado para llevar al usuario desde su nivel actual de conocimiento hasta el [[Destino Organizacional]].
+*   **[[Destino de Aprendizaje]]:** La competencia macro o capacidad final que la empresa necesita que el colaborador adquiera (ej. "Liderar un equipo remoto").
+*   **[[Ruta de Aprendizaje]]:** Camino hiperpersonalizado, dividido en micro-pasos (ECAs), diseñado para llevar al usuario desde su nivel actual de conocimiento hasta el [[Destino de Aprendizaje]].
 *   **Just-in-Time Learning (Aprendizaje en el flujo de trabajo):** Aprender la habilidad exacta en el momento en que se necesita para resolver un problema real, en oposición al *Just-in-Case Learning* (aprender "por si acaso" en cursos genéricos de 40 horas).
 *   **[[Tecnoestrés]]:** Ansiedad cognitiva derivada de la sobrecarga de información y herramientas tecnológicas. El Cerebro MPE mide y mitiga activamente este estado mediante sus tutores y reducción de dificultad.
 

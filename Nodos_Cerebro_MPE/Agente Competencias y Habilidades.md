@@ -1,6 +1,6 @@
 # Agente Competencias y Habilidades
 
-**Función Central:** Calcula la brecha neta entre lo que el alumno sabe (estado en el [[OCC]]) y la meta organizacional a alcanzar (el [[Destino Organizacional]]).
+**Función Central:** Calcula la brecha neta entre lo que el alumno sabe (estado en el [[OCC]]) y la meta organizacional a alcanzar (el [[Destino de Aprendizaje]]).
 
 *Diseña el mapa de competencias requerido.*
 

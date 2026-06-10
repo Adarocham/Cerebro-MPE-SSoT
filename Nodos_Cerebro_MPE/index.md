@@ -13,7 +13,7 @@
 - [[Agente Capa 3 Focal]]: Director del Simulador. Implementa la Práctica Deliberada.
 - [[Agente Capa 4 Integrativa]]: Director del Escenario de Transferencia (Escenario FLUX).
 - [[Agente Casos de Uso]]: Construye escenarios aplicados hiper-relevantes basados en el rol laboral del usuario.
-- [[Agente Competencias y Habilidades]]: Calcula la brecha neta entre el conocimiento actual y el destino organizacional.
+- [[Agente Competencias y Habilidades]]: Calcula la brecha neta entre el conocimiento actual y el destino de aprendizaje.
 - [[Agente Conocimientos Relacionados]]: Construye puentes interdisciplinares evitando silos cognitivos.
 - [[Agente Diseño Contenidos]]: Arquitecto instruccional que compila y estructura el guion pedagógico final.
 - [[Agente Dominio de las Tres Preguntas]]: Ejecuta la destilación pedagógica basada en la metodología del MIT.
@@ -38,7 +38,7 @@
 
 ## 🧠 Conceptos Core y Metodologías
 - [[Curva del Olvido]]: Pérdida de conocimiento a lo largo del tiempo, combatida por el Cerebro MPE.
-- [[Destino Organizacional]]: La meta corporativa a alcanzar por el alumno.
+- [[Destino de Aprendizaje]]: La meta corporativa a alcanzar por el alumno.
 - [[Discrepancias]]: Áreas de debate experto utilizadas como motor de aprendizaje crítico.
 - [[ECA]]: Unidad mínima viable de ejecución pedagógica (Acrónimo de Entorno Controlado de Aprendizaje).
 - [[Entorno Controlado de Aprendizaje]]: Cápsula blindada de enseñanza de 30 minutos.
@@ -52,6 +52,6 @@
 - [[Práctica Deliberada]]: Ejecución enfocada y consciente para forjar conexiones neuronales.
 - [[Regla MIT]]: Metodología de destilación de conocimiento basada en 3 preguntas fundamentales.
 - [[Repetición Espaciada]]: Distribución dinámica de recordatorios para forjar la memoria a largo plazo.
-- [[Ruta de Aprendizaje]]: El GPS Pedagógico: secuencia de ECAs hacia el Destino Organizacional.
+- [[Ruta de Aprendizaje]]: El GPS Pedagógico: secuencia de ECAs hacia el Destino de Aprendizaje.
 - [[Súper Pareto]]: Filtro 10-20/80-90 que descarta el ruido periférico para entregar conocimiento de alto impacto.
 - [[Tecnoestrés]]: Ansiedad laboral que el Cerebro MPE combate con fricción cero.

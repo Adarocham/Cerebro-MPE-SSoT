@@ -65,7 +65,7 @@ Carlos cree que el viaje terminó, pero el Cerebro MPE sigue trabajando en la so
 *   **Un mes después**, el poderoso Agente de Transferencia audita los modelos de crédito reales que Carlos aprobó. Revisa si hubo errores de cumplimiento y calcula el ROI (Retorno de Inversión) de esa micro-interacción de 30 minutos, reportando a la organización que la competencia fue exitosamente transferida al puesto de trabajo (Nivel 5 de [[Kirkpatrick]]).
 
 **Resumen del Flujo de Estructuras:**
-`Consulta FLUX` ➔ `[[Destino Organizacional]]` ➔ `Ruta(s) de Aprendizaje` ➔ `ECA (30 min: 4 Capas + Tutores)` ➔ `[[Repetición Espaciada]]` ➔ `Transferencia ([[Kirkpatrick]] 5)`.
+`Consulta FLUX` ➔ `[[Destino de Aprendizaje]]` ➔ `Ruta(s) de Aprendizaje` ➔ `ECA (30 min: 4 Capas + Tutores)` ➔ `[[Repetición Espaciada]]` ➔ `Transferencia ([[Kirkpatrick]] 5)`.
 
 ---
 ## 🔗 Documentación Arquitectónica Relacionada

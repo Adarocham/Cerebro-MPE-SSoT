@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "82d3e8f43a1b0f82",
+        "id": "d23da9bbb858315c",
         "type": "tabs",
         "children": [
           {
-            "id": "61b6ed9ca29c115f",
+            "id": "fe0dce59c531d3d2",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           }
         ]
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 368.5
+    "width": 200
   },
   "right": {
     "id": "d0e2f5beadb6ab7b",
@@ -90,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Destino Organizacional.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes"
+              "title": "Enlaces entrantes de Destino Organizacional"
             }
           },
           {
@@ -188,11 +189,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 384.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,30 +208,37 @@
       "smart-connections:Toggle Footer Connections": false,
       "smart-connections:Smart Connections: Open random connection": false,
       "tags-overview:Tags overview": false,
-      "infranodus-graph-view:InfraNodus Graph View": false
+      "infranodus-graph-view:InfraNodus Graph View": false,
+      "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "61b6ed9ca29c115f",
+  "active": "fe0dce59c531d3d2",
   "lastOpenFiles": [
-    "Capa Integrativa.md",
-    "Destino Organizacional.md",
-    "Tutor Experto.md",
-    "Tutor Aprendiz.md",
-    "Súper Pareto.md",
-    "Repetición Espaciada.md",
-    "Regla MIT.md",
-    "OCC.md",
+    "MASTER_CEREBRO_MPE_SSoT.md",
+    "log.md",
+    "Capa Panorámica.md",
+    "Agente Capa 3 Focal.md",
+    "Capa Focal.md",
+    "Práctica Deliberada.md",
+    "Agente Adversarial.md",
+    "Agente Análisis de Fuentes.md",
+    "Agente Calidad.md",
+    "Agente Capa 1 Panorámica.md",
+    "Entorno Controlado de Aprendizaje.md",
+    "Entorno FLUX.md",
+    "Escenario FLUX.md",
     "Filtro Antibuloso.md",
     "Glosario_Cerebro_MPE.md",
-    "Capa Panorámica.md",
-    "Capa Focal.md",
-    "Agente Tres Preguntas.md",
+    "Kirkpatrick.md",
+    "Tutor Par.md",
+    "Tutor Experto.md",
+    "Tutor Aprendiz.md",
+    "Tecnoestrés.md",
+    "Súper Pareto.md",
+    "Ruta de Aprendizaje.md",
+    "Regla MIT.md",
     "Agente Perfilador VARK.md",
     "Agente Evaluador Sumativo MPE.md",
-    "Agente Competencias y Habilidades.md",
-    "Agente Calidad.md",
-    "Agente Capa 2 Conceptual.md",
-    "Tutor Par.md",
-    "MASTER_CEREBRO_MPE_SSoT.md"
+    "Agente Búsqueda de Fuentes.md"
   ]
 }
